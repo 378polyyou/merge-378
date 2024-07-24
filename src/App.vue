@@ -1,4 +1,5 @@
 <template>
+<<<<<<< HEAD
   <div class="q-pa-md" style="max-width: 400px">
 
     <q-form
@@ -80,3 +81,13 @@ export default {
   }
 }
 </script>
+=======
+  <router-view />
+</template>
+
+<script setup>
+defineOptions({
+  name: 'App'
+});
+</script>
+>>>>>>> 593a775b049d25b7ac132c4cbfdb0db263be3295
